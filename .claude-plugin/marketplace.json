@@ -1,0 +1,17 @@
+{
+  "name": "api-and-you-plugins",
+  "description": "Market place de plugin personnalisés",
+  "owner": {
+    "name": "Api & You",
+    "url": "https://github.com/API-AND-YOU"
+  },
+  "repository": "https://github.com/API-AND-YOU/ia-plugins",
+  "plugins": [
+    {
+      "name": "devexpress-documentation",
+      "source": "./plugins/devexpress-documentation",
+      "version": "1.0.0",
+      "description": "Search and retrieve official DevExpress documentation directly in Claude Code. Covers all DevExpress technologies: WPF, Blazor, XtraReports, eXpressAppFramework, MAUI, and more."
+    }
+  ]
+}
