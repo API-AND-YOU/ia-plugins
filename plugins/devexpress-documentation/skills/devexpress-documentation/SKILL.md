@@ -43,7 +43,22 @@ Always prefer official documentation content over general knowledge. If multiple
 
 ## Version-specific documentation
 
-By default, this plugin queries the latest DevExpress documentation. To pin searches to a specific product version (e.g. 24.2), users can add a versioned MCP server in their own `~/.claude/.mcp.json`:
+By default, this plugin queries the latest DevExpress documentation. To pin searches to a specific product version (e.g. 24.2), users can add a versioned MCP server:
+
+**Claude Code** (`~/.claude/.mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "dxdocs24_2": {
+      "url": "https://api.devexpress.com/mcp/docs?v=24.2",
+      "type": "http"
+    }
+  }
+}
+```
+
+**GitHub Copilot CLI** (`~/.copilot/mcp.json`):
 
 ```json
 {
